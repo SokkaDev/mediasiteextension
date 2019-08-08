@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "MediaSite Downloader",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "matches": [
+           
+           "http://webcast.tu-harburg.de/*"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+  }
